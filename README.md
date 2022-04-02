@@ -40,8 +40,12 @@ Variables y funciones adicionales:
 *	**dataEDF.drawSignals_ChannelsDWT**: Realiza la extracción de características por archivos basado en la Discrete Wavelet Transform.
 *	**dataEDF.drawSignals_Channels**: Realiza la extracción de características por archivos basado en el método para la extracción de bandas.
 
-*Nota: Estas dos ultimas funciones generan archivos cvs por canal de las características identificando si existe un espasmo o no.*
+*Nota: Estas dos ultimas funciones generan archivos csv por canal de las características identificando si existe un espasmo o no.*
 
-*	**dataEDF.mergeData**: Unifica los archivos cvs en un unico archivo.
+*	**dataEDF.mergeData**: Unifica los archivos csv en un unico archivo.
 
-### ProcessingtHandler:
+### MergetHandler:
+Unifica los archivos csv con características en un solo archivo csv.
+
+*	**directory (Directorio)**: Ubicación de los archivos EDF que seran unificados.
+*	**file_final.mergeData**: Unifica los archivos csv en un unico archivo.
