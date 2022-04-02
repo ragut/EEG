@@ -12,7 +12,7 @@ Genera como resultado un archivo csv consolidado con la extracción de caracteri
 
 Se configura algunas variables indispensables para el procesamiento:
 
-*	urlPath: Ubicación donde se encuentra el archivo base EDF donde se extrae frecuencia de muestreo y canales.
+*	**urlPath**: Ubicación donde se encuentra el archivo base EDF donde se extrae frecuencia de muestreo y canales.
 * 	urlNameFile: Nombre del el archivo base EDF.
 
 Por otra parte, como variables de entrada por interfaz se tienen:
