@@ -15,10 +15,9 @@ Se configura algunas variables indispensables para el procesamiento:
 	- 	urlNameFile: Nombre del el archivo base EDF.
 
 Por otra parte, como variables de entrada por interfaz se tienen:
-> Pruebas
-
-	-	directory (Directorio): Ubicación de los archivos EDF que seran procesados.
-	-	LenWindow (Tamaño de ventana): Se establece el tamaño de las ventanas en segundos para analizar.
+	
+	*	directory (Directorio): Ubicación de los archivos EDF que seran procesados.
+	*	LenWindow (Tamaño de ventana): Se establece el tamaño de las ventanas en segundos para analizar.
 	-	select_Allchannel - select_channels (Canales): Los canales que se desean tomar para la extracción de caracteristcias	
 	-	band_onda (Extrar bandas): Elegir metodo para la extracción de bandas. Solo se utiliza para la función drawSignals_Channels.
 		<p align="left"> <a href="https://raphaelvallat.com/bandpower.html" target="_blank"> Más información</a></p>
