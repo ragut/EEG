@@ -37,10 +37,10 @@ Por otra parte, como variables de entrada por interfaz se tienen:
 Variables y funciones adicionales:
 
 *	**filesDirectory**: Obtiene los archivos de la carpeta para ser procesados.	
-*	**dataEDF.drawSignals_ChannelsDWT**: Realiza la extracción de caractesticas por archivos basado en la Discrete Wavelet Transform.
-*	**dataEDF.drawSignals_Channels**: Realiza la extracción de caractesticas por archivos basado en el método para la extracción de bandas.
+*	**dataEDF.drawSignals_ChannelsDWT**: Realiza la extracción de características por archivos basado en la Discrete Wavelet Transform.
+*	**dataEDF.drawSignals_Channels**: Realiza la extracción de características por archivos basado en el método para la extracción de bandas.
 
-Nota: Estas dos ultimas funciones, generan archivos cvs por canal de las caracteristicas identificando si existe un espasmo o no.
+Nota: Estas dos ultimas funciones, generan archivos cvs por canal de las características identificando si existe un espasmo o no.
 
 *	**dataEDF.mergeData**: Unifica los archivos cvs en un unico archivo.
 
