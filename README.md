@@ -4,10 +4,10 @@ Raúl Andrés Gutierrez Villarraga ([ra.gutierrez@uniandes.edu.co](mailto:ra.gut
 ## Main.py (Controlador)
 Archivo principal para arrancar la aplicación y que contiene el direccionamiento de clases
 
-#MainHandler:
+### MainHandler:
 Genera los datos basicos del index de la aplicación web.
 
-#ProcessingtHandler:
+### ProcessingtHandler:
 Genera como resultado un archivo csv consolidado con la extracción de caracteristicas del EDF identificado ventanas con espasmos 0 y sin ellos 1.
 
 Se configura algunas variables indispensables para el procesamiento:
