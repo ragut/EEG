@@ -20,13 +20,28 @@ Por otra parte, como variables de entrada por interfaz se tienen:
 *	**directory (Directorio)**: Ubicación de los archivos EDF que seran procesados.
 *	**LenWindow (Tamaño de ventana)**: Se establece el tamaño de las ventanas en segundos para analizar.
 *	**select_Allchannel - select_channels (Canales)**: Los canales que se desean tomar para la extracción de caracteristcias	
-*	**band_onda (Extrar bandas)**: Elegir metodo para la extracción de bandas. Solo se utiliza para la función *drawSignals_Channels* - [Documentación](https://raphaelvallat.com/bandpower.html "Documentación")
+*	**band_onda (Extrar bandas)**: Se elige método para la extracción de bandas. Solo se utiliza para la función *drawSignals_Channels* - [Documentación](https://raphaelvallat.com/bandpower.html "Documentación")
 	*	Welch Method
 	*	Multitaper
-*	**peaks (Picos)**: Seleccionar metodo de extracción de picos. En esta parte se puede configurar algunos parametros de acuerdo a la estrategia de picos seleccionada.
+*	**peaks (Picos)**: Se selecciona el método de extracción de picos. En esta parte se puede configurar algunos parametros de acuerdo a la estrategia seleccionada.
 	*	Distance
 	*	Prominence
-*	**Filtro**: Seleccionar metodo para limpiar la señal:
+*	**filters (Filtro)**: Se selecciona el método para limpiar la señal.  En esta parte se puede configurar algunos parametros de acuerdo al filtro seleccionada.
 	*	Butterworth
 	*	Variables 
-			
+	*	Sin filtro
+	*	Wavelet
+	*	STFT Hard
+	*	STFT Soft
+
+Variables y funciones adicionales:
+
+*	**filesDirectory**: Obtiene los archivos de la carpeta para ser procesados.	
+*	**dataEDF.drawSignals_ChannelsDWT**: Realiza la extracción de caractesticas por archivos basado en la Discrete Wavelet Transform.
+*	**dataEDF.drawSignals_Channels**: Realiza la extracción de caractesticas por archivos basado en el método para la extracción de bandas.
+
+Nota: Estas dos ultimas funciones, generan archivos cvs por canal de las caracteristicas identificando si existe un espasmo o no.
+
+*	**dataEDF.mergeData**: Unifica los archivos cvs en un unico archivo.
+
+### ProcessingtHandler:
