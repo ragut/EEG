@@ -20,8 +20,7 @@ Por otra parte, como variables de entrada por interfaz se tienen:
 *	**directory (Directorio)**: Ubicación de los archivos EDF que seran procesados.
 *	**LenWindow (Tamaño de ventana)**: Se establece el tamaño de las ventanas en segundos para analizar.
 *	**select_Allchannel - select_channels (Canales)**: Los canales que se desean tomar para la extracción de caracteristcias	
-*	**band_onda (Extrar bandas)**: Elegir metodo para la extracción de bandas. Solo se utiliza para la función drawSignals_Channels.
-    [Documentación Enlace](https://raphaelvallat.com/bandpower.html "Documentación Enlace")
+*	**band_onda (Extrar bandas)**: Elegir metodo para la extracción de bandas. Solo se utiliza para la función drawSignals_Channels - [Documentación Enlace](https://raphaelvallat.com/bandpower.html "Documentación Enlace")
 	*	Welch Method
 	*	Multitaper
 *	**peaks (Picos)**: Seleccionar metodo de extracción de picos. En esta parte se puede configurar algunos parametros de acuerdo a la estrategia de picos seleccionada.
