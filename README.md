@@ -15,6 +15,7 @@ Se configura algunas variables indispensables para el procesamiento:
 	- 	urlNameFile: Nombre del el archivo base EDF.
 
 Por otra parte, como variables de entrada por interfaz se tienen:
+> Pruebas
 
 	-	directory (Directorio): Ubicación de los archivos EDF que seran procesados.
 	-	LenWindow (Tamaño de ventana): Se establece el tamaño de las ventanas en segundos para analizar.
