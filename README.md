@@ -52,6 +52,7 @@ Unifica los archivos csv con características en un solo archivo csv.
 
 ### EvaluateModeltHandler:
 Contribuye a la evaluación de modelos de Machine Learning y Sampling con diferentes mecanismos de evaluación. Se puede generar evaluación de características a traves de PCA.
+Se genera un archivo txt que contiene la descripción completa de evaluación del modelo y un archivo csv el cual contiene la configuración del modelo y su evaluación por canal.
 
 Se configura algunas variables indispensables para el procesamiento:
 
@@ -104,6 +105,15 @@ Para el PCA, se define la variable:
 *	**n_comp**: Cantidad de componentes que se desea reducir lsa características obtenidas inicialmente.
 *	**pca_pipe**: Se crea el flujo de construcción del PCA.
 *	**proyecciones, proyecciones_test**: Resultado de la reducción de dimensiones a través de PCA. Estas serán los datos de entrada para entrenar y probar el modelo.
+
+
+Continuando el proceso de evaluación se utiliza:
+
+*	**sampling_x, sampling_y**: Se realiza el muestreo de acuerdo a los parametros y metodo seleccionado.
+*	**grid, bestparameter, bestestimator**: Se selecciona el mejor modelo despues de realizar la evaluación del modelo.
+*	**score_report, score_train, score_test, y_pred_test**: Se obtienen los resultados de la evaluación del modelo.
+*	**list_configParameter**: Lista que contiene cada uno de los resultados de la evaluación con la respectiva configuración del modelo.
+*	**score_information**: Descripción detalla de la evaluación por canal.
 
 
 
