@@ -113,7 +113,7 @@ Continuando el proceso de evaluación se utiliza:
 *	**grid, bestparameter, bestestimator**: Se selecciona el mejor modelo despues de realizar la evaluación del modelo.
 *	**score_report, score_train, score_test, y_pred_test**: Se obtienen los resultados de la evaluación del modelo.
 *	**list_configParameter**: Lista que contiene cada uno de los resultados de la evaluación con la respectiva configuración del modelo.
-*	**score_information**: Descripción detalla de la evaluación por canal.
+*	**score_information**: Descripción detallada de la evaluación por canal.
 
 
 
